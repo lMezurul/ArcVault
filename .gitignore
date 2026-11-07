@@ -1,0 +1,7 @@
+bin/
+test/work/
+test/bench/
+*.pdb
+*.obj
+*.ilk
+fsp-trace.log
