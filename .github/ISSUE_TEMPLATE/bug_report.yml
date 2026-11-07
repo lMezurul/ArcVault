@@ -1,0 +1,55 @@
+name: Bug report
+description: Something in ArcVault does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. For security issues please use
+        [Security Advisories](https://github.com/lMezurul/ArcVault/security/advisories/new)
+        instead of a public issue.
+  - type: input
+    id: version
+    attributes:
+      label: ArcVault version
+      description: Release tag or commit hash
+      placeholder: v1.0.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows and WinFsp version
+      placeholder: Windows 11 24H2, WinFsp 2.1
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact commands you ran
+      placeholder: |
+        arcvault-encrypt pack payload.bin vault.bin license.key
+        arcvault.exe --store vault.bin --mount .\mnt --watch demo-app.exe
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Include the launcher output if there is one
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Logs, screenshots, ideas about the cause
+    validations:
+      required: false
