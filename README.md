@@ -8,6 +8,8 @@
   <img alt="WinFsp" src="https://img.shields.io/badge/WinFsp-2.x-B91C1C?style=flat-square&labelColor=111111">
   <img alt="No kernel driver" src="https://img.shields.io/badge/kernel%20driver-not%20required-B91C1C?style=flat-square&labelColor=111111">
   <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-B91C1C?style=flat-square&labelColor=111111">
+  <a href="https://github.com/lMezurul/ArcVault/actions/workflows/build.yml"><img alt="build" src="https://github.com/lMezurul/ArcVault/actions/workflows/build.yml/badge.svg"></a>
+  <a href="https://github.com/lMezurul/ArcVault/discussions"><img alt="discussions" src="https://img.shields.io/badge/discussions-open-B91C1C?style=flat-square&labelColor=111111&logo=github&logoColor=white"></a>
 </p>
 
 **ArcVault keeps a file encrypted on disk and exposes it to exactly one process as an ordinary
@@ -239,6 +241,14 @@ A few things that were not obvious while building this:
   `STATUS_INVALID_DEVICE_REQUEST`.
 - **Security descriptors** need owner/group and specific rights (`FA`), because the user-mode
   access check does not expand generic rights (`GA`) inside ACEs.
+
+## Contributing
+
+Bug reports, ideas and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the
+build and test workflow. Security issues should go through
+[Security Advisories](https://github.com/lMezurul/ArcVault/security/advisories/new) — see
+[SECURITY.md](SECURITY.md). For open-ended questions and ideas use
+[Discussions](https://github.com/lMezurul/ArcVault/discussions).
 
 ## Credits
 
