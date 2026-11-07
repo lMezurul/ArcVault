@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1240" height="690" viewBox="0 0 1240 690" fill="none">
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1240" y2="690" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0D1117"/><stop offset="1" stop-color="#0A0F16"/></linearGradient></defs>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1240" y2="690" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#08080A"/><stop offset="1" stop-color="#0D090B"/></linearGradient></defs>
   <rect width="1240" height="690" rx="14" fill="url(#bg)"/>
-  <rect x="0.75" y="0.75" width="1238.5" height="688.5" rx="13.25" stroke="#21262D" stroke-width="1.5"/>
-  <path d="M0 44h1240" stroke="#21262D"/>
-  <circle cx="26" cy="22" r="6" fill="#FF5F57"/><circle cx="48" cy="22" r="6" fill="#FEBC2E"/><circle cx="70" cy="22" r="6" fill="#28C840"/>
-  <text x="96" y="27" font-family="Segoe UI, sans-serif" font-size="13" fill="#7D8590">Windows PowerShell</text>
-  <text x="1216" y="27" text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="12" fill="#484F58">ArcVault demo</text>
-  <text x="24" y="112" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#6E7681">PS C:\demo&gt;</text>
-  <text x="119" y="112" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#E6EDF3">arcvault.exe --store vault.bin --mount .\mnt --watch demo-app.exe --launch &quot;demo-app.exe .\mnt\vault.bin&quot;</text>
-  <text x="24" y="162" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#79C0FF">== ArcVault launcher ==</text>
-  <text x="24" y="187" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#7D8590">[guard] mode: strict</text>
-  <text x="24" y="212" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#7D8590">[fsp] winfsp-x64.dll loaded, api version 2.0</text>
-  <text x="24" y="237" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#7D8590">[vault] license OK, HWID OK, key unwrapped (64 sectors, 4194304 bytes)</text>
-  <text x="24" y="262" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#7D8590">[fsp] mounted at C:\demo\mnt  (virtual file: \vault.bin, 4194304 bytes)</text>
-  <text x="24" y="287" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#3FB950">[guard] trusted process adopted: pid 25844  C:\demo\demo-app.exe</text>
-  <text x="24" y="312" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#3FB950">SIZE: 4194304</text>
-  <text x="24" y="337" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#3FB950">SHA256: 16d98e5d666a2dcc9c6524152a549df144f89d45dec206f89bc7bbd63f63e9b1</text>
-  <text x="24" y="362" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#3FB950">OK</text>
-  <text x="24" y="412" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#6E7681">PS C:\demo&gt;</text>
-  <text x="119" y="412" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#E6EDF3">type .\mnt\vault.bin</text>
-  <text x="24" y="437" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#F85149">Access is denied.</text>
-  <text x="24" y="462" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#6E7681">PS C:\demo&gt;</text>
-  <text x="119" y="462" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#E6EDF3">[IO.File]::ReadAllBytes(&quot;C:\demo\mnt\vault.bin&quot;)</text>
-  <text x="24" y="487" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#F85149">Exception calling &quot;ReadAllBytes&quot;: Access to the path is denied.</text>
-  <text x="24" y="537" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#F85149">[guard] DENIED open of \vault.bin from pid 28716</text>
-  <text x="24" y="562" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#F85149">[guard] DENIED open of \ from pid 12024</text>
-  <text x="24" y="612" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#7D8590">[watch] app exited -&gt; unmounting</text>
-  <text x="24" y="637" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#D29922">[done] denials this session: 3</text>
+  <rect x="0.75" y="0.75" width="1238.5" height="688.5" rx="13.25" stroke="#2A1416" stroke-width="1.5"/>
+  <path d="M0 44h1240" stroke="#221114"/>
+  <circle cx="26" cy="22" r="6" fill="#FF3B30"/><circle cx="48" cy="22" r="6" fill="#FF6B4A"/><circle cx="70" cy="22" r="6" fill="#7F1D1D"/>
+  <text x="96" y="27" font-family="Segoe UI, sans-serif" font-size="13" fill="#71717A">Windows PowerShell</text>
+  <text x="1216" y="27" text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="12" fill="#52525B">ArcVault demo</text>
+  <text x="24" y="112" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#8A8A93">PS C:\demo&gt;</text>
+  <text x="119" y="112" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#F5F5F5">arcvault.exe --store vault.bin --mount .\mnt --watch demo-app.exe --launch &quot;demo-app.exe .\mnt\vault.bin&quot;</text>
+  <text x="24" y="162" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#FF8080">== ArcVault launcher ==</text>
+  <text x="24" y="187" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#8A8A93">[guard] mode: strict</text>
+  <text x="24" y="212" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#8A8A93">[fsp] winfsp-x64.dll loaded, api version 2.0</text>
+  <text x="24" y="237" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#8A8A93">[vault] license OK, HWID OK, key unwrapped (64 sectors, 4194304 bytes)</text>
+  <text x="24" y="262" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#8A8A93">[fsp] mounted at C:\demo\mnt  (virtual file: \vault.bin, 4194304 bytes)</text>
+  <text x="24" y="287" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#FF8080">[guard] trusted process adopted: pid 25844  C:\demo\demo-app.exe</text>
+  <text x="24" y="312" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#F5F5F5">SIZE: 4194304</text>
+  <text x="24" y="337" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#F5F5F5">SHA256: 16d98e5d666a2dcc9c6524152a549df144f89d45dec206f89bc7bbd63f63e9b1</text>
+  <text x="24" y="362" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#F5F5F5">OK</text>
+  <text x="24" y="412" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#8A8A93">PS C:\demo&gt;</text>
+  <text x="119" y="412" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#F5F5F5">type .\mnt\vault.bin</text>
+  <text x="24" y="437" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#FF4D4D">Access is denied.</text>
+  <text x="24" y="462" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#8A8A93">PS C:\demo&gt;</text>
+  <text x="119" y="462" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#F5F5F5">[IO.File]::ReadAllBytes(&quot;C:\demo\mnt\vault.bin&quot;)</text>
+  <text x="24" y="487" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#FF4D4D">Exception calling &quot;ReadAllBytes&quot;: Access to the path is denied.</text>
+  <text x="24" y="537" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#FF4D4D">[guard] DENIED open of \vault.bin from pid 28716</text>
+  <text x="24" y="562" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#FF4D4D">[guard] DENIED open of \ from pid 12024</text>
+  <text x="24" y="612" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#8A8A93">[watch] app exited -&gt; unmounting</text>
+  <text x="24" y="637" font-family="Cascadia Code, Consolas, monospace" font-size="14" fill="#FF9F43">[done] denials this session: 3</text>
 </svg>

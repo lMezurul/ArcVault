@@ -1,63 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" fill="none">
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0 0L10 5L0 10z" fill="#3E5A7D"/>
+      <path d="M0 0L10 5L0 10z" fill="#5A2A2E"/>
     </marker>
     <marker id="arrowRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0 0L10 5L0 10z" fill="#F85149"/>
+      <path d="M0 0L10 5L0 10z" fill="#FF4D4D"/>
     </marker>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="480" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0B1220"/>
-      <stop offset="1" stop-color="#0A1524"/>
+      <stop offset="0" stop-color="#08080A"/>
+      <stop offset="1" stop-color="#0D090B"/>
     </linearGradient>
   </defs>
 
   <rect width="1200" height="480" rx="20" fill="url(#bg)"/>
-  <rect x="0.75" y="0.75" width="1198.5" height="478.5" rx="19.5" stroke="#1B2638" stroke-width="1.5"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="478.5" rx="19.5" stroke="#2A1416" stroke-width="1.5"/>
 
-  <text x="44" y="58" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="25" font-weight="600" fill="#E6EDF3">How ArcVault works</text>
-  <text x="44" y="88" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="15" fill="#7D93B2">The container stays ciphertext on disk; the trusted process sees a normal read-only file.</text>
+  <text x="44" y="58" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="25" font-weight="600" fill="#F5F5F5">How ArcVault works</text>
+  <text x="44" y="88" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="15" fill="#A1A1AA">The container stays ciphertext on disk; the trusted process sees a normal read-only file.</text>
 
   <!-- box 1: app -->
   <g>
-    <rect x="40" y="130" width="240" height="132" rx="16" fill="#0D1B2A" stroke="#2C6B45" stroke-width="1.5"/>
-    <text x="64" y="168" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#E6EDF3">Your application</text>
-    <text x="64" y="196" font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#8BA3C7">demo-app.exe</text>
-    <text x="64" y="222" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#647A99">ordinary CreateFile / ReadFile</text>
-    <circle cx="252" cy="152" r="5" fill="#3FB950"/>
+    <rect x="40" y="130" width="240" height="132" rx="16" fill="#120A0C" stroke="#7F1D1D" stroke-width="1.5"/>
+    <text x="64" y="168" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#F5F5F5">Your application</text>
+    <text x="64" y="196" font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#FF8080">demo-app.exe</text>
+    <text x="64" y="222" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#71717A">ordinary CreateFile / ReadFile</text>
+    <circle cx="252" cy="152" r="5" fill="#FF4D4D"/>
   </g>
 
   <!-- box 2: winfsp -->
   <g>
-    <rect x="330" y="130" width="240" height="132" rx="16" fill="#0D1B2A" stroke="#1E4C6B" stroke-width="1.5"/>
-    <text x="354" y="168" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#E6EDF3">WinFsp volume</text>
-    <text x="354" y="196" font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#7DD3FC">\vault.bin</text>
-    <text x="354" y="222" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#647A99">read-only, one virtual file</text>
+    <rect x="330" y="130" width="240" height="132" rx="16" fill="#120A0C" stroke="#4A1A1E" stroke-width="1.5"/>
+    <text x="354" y="168" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#F5F5F5">WinFsp volume</text>
+    <text x="354" y="196" font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#FF8080">\vault.bin</text>
+    <text x="354" y="222" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#71717A">read-only, one virtual file</text>
   </g>
 
   <!-- box 3: decryptor -->
   <g>
-    <rect x="620" y="130" width="240" height="132" rx="16" fill="#0D1B2A" stroke="#4C3B78" stroke-width="1.5"/>
-    <text x="644" y="168" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#E6EDF3">arcvault.exe</text>
-    <text x="644" y="196" font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#C4B5FD">AES-256-XTS</text>
-    <text x="644" y="222" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#647A99">decrypts each 64 KB sector</text>
+    <rect x="620" y="130" width="240" height="132" rx="16" fill="#120A0C" stroke="#5A1A20" stroke-width="1.5"/>
+    <text x="644" y="168" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#F5F5F5">arcvault.exe</text>
+    <text x="644" y="196" font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#FFB0B0">AES-256-XTS</text>
+    <text x="644" y="222" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#71717A">decrypts each 64 KB sector</text>
   </g>
 
   <!-- box 4: disk -->
   <g>
-    <rect x="910" y="130" width="240" height="132" rx="16" fill="#0D1B2A" stroke="#6B4E1E" stroke-width="1.5"/>
-    <text x="934" y="168" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#E6EDF3">vault.bin on disk</text>
-    <text x="934" y="196" font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#F0B429">ciphertext only</text>
-    <text x="934" y="222" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#647A99">header + CRC32 table + sectors</text>
+    <rect x="910" y="130" width="240" height="132" rx="16" fill="#120A0C" stroke="#5A3A1E" stroke-width="1.5"/>
+    <text x="934" y="168" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="18" font-weight="600" fill="#F5F5F5">vault.bin on disk</text>
+    <text x="934" y="196" font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#FF9F43">ciphertext only</text>
+    <text x="934" y="222" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#71717A">header + CRC32 table + sectors</text>
   </g>
 
   <!-- arrows -->
-  <g stroke="#3E5A7D" stroke-width="2">
+  <g stroke="#5A2A2E" stroke-width="2">
     <line x1="282" y1="196" x2="326" y2="196" marker-end="url(#arrow)"/>
     <line x1="572" y1="196" x2="616" y2="196" marker-end="url(#arrow)"/>
     <line x1="862" y1="196" x2="906" y2="196" marker-end="url(#arrow)"/>
   </g>
-  <g font-family="Cascadia Code, Consolas, monospace" font-size="11" fill="#5B718F">
+  <g font-family="Cascadia Code, Consolas, monospace" font-size="11" fill="#71717A">
     <text x="304" y="184" text-anchor="middle">read</text>
     <text x="594" y="184" text-anchor="middle">sector</text>
     <text x="884" y="184" text-anchor="middle">pread</text>
@@ -66,17 +66,17 @@
   <!-- denial -->
   <g>
     <rect x="330" y="330" width="400" height="96" rx="14" fill="#1B0F14" stroke="#5C2530" stroke-width="1.5" stroke-dasharray="6 5"/>
-    <text x="356" y="366" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#F0B7B3">cmd.exe · Explorer · .NET</text>
-    <text x="356" y="392" font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#F85149">STATUS_ACCESS_DENIED</text>
+    <text x="356" y="366" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="16" font-weight="600" fill="#FFB4B4">cmd.exe · Explorer · .NET</text>
+    <text x="356" y="392" font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#FF4D4D">STATUS_ACCESS_DENIED</text>
     <text x="356" y="412" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="12" fill="#8A6B6E">checked in the Create/Open callback by caller PID</text>
   </g>
-  <path d="M470 330V268" stroke="#F85149" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrowRed)"/>
+  <path d="M470 330V268" stroke="#FF4D4D" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrowRed)"/>
 
   <!-- note -->
-  <g font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#647A99">
+  <g font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="13" fill="#71717A">
     <text x="770" y="366">Plaintext exists only in memory,</text>
     <text x="770" y="388">for the duration of a single read.</text>
   </g>
 
-  <text x="1156" y="446" text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="12" fill="#3F5270">license + HWID → content key → XTS</text>
+  <text x="1156" y="446" text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="12" fill="#52525B">license + HWID → content key → XTS</text>
 </svg>

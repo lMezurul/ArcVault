@@ -3,11 +3,11 @@
 </div>
 
 <p align="center">
-  <a href="#quick-start"><img alt="Windows 10/11" src="https://img.shields.io/badge/Windows-10%20%2F%2011-0078D6?logo=windows&logoColor=white"></a>
-  <img alt="C++17" src="https://img.shields.io/badge/C%2B%2B-17-00599C?logo=cplusplus&logoColor=white">
-  <img alt="WinFsp" src="https://img.shields.io/badge/WinFsp-2.x-4B8BBE">
-  <img alt="No kernel driver" src="https://img.shields.io/badge/kernel%20driver-not%20required-3FB950">
-  <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-3DA639">
+  <a href="#quick-start"><img alt="Windows 10/11" src="https://img.shields.io/badge/Windows-10%2F11-B91C1C?style=flat-square&labelColor=111111&logo=windows&logoColor=white"></a>
+  <img alt="C++17" src="https://img.shields.io/badge/C%2B%2B-17-B91C1C?style=flat-square&labelColor=111111&logo=cplusplus&logoColor=white">
+  <img alt="WinFsp" src="https://img.shields.io/badge/WinFsp-2.x-B91C1C?style=flat-square&labelColor=111111">
+  <img alt="No kernel driver" src="https://img.shields.io/badge/kernel%20driver-not%20required-B91C1C?style=flat-square&labelColor=111111">
+  <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-B91C1C?style=flat-square&labelColor=111111">
 </p>
 
 **ArcVault keeps a file encrypted on disk and exposes it to exactly one process as an ordinary

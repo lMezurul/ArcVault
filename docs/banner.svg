@@ -1,28 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" fill="none">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0B1220"/>
-      <stop offset="0.55" stop-color="#0E1729"/>
-      <stop offset="1" stop-color="#0A1A2B"/>
+      <stop offset="0" stop-color="#08080A"/>
+      <stop offset="0.55" stop-color="#0D090B"/>
+      <stop offset="1" stop-color="#140A0C"/>
     </linearGradient>
     <linearGradient id="title" x1="210" y1="140" x2="620" y2="200" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#F0F6FC"/>
-      <stop offset="1" stop-color="#9BE9FF"/>
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFC9C9"/>
     </linearGradient>
     <linearGradient id="lock" x1="96" y1="110" x2="160" y2="188" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3FB950"/>
-      <stop offset="1" stop-color="#22D3EE"/>
+      <stop offset="0" stop-color="#FF4D4D"/>
+      <stop offset="1" stop-color="#E5484D"/>
     </linearGradient>
     <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(140 170) rotate(90) scale(260 420)">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0" stop-color="#E5484D" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#E5484D" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1090 150) rotate(90) scale(240 360)">
-      <stop offset="0" stop-color="#3FB950" stop-opacity="0.14"/>
-      <stop offset="1" stop-color="#3FB950" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FF4D4D" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FF4D4D" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0H0V44" stroke="#7DD3FC" stroke-opacity="0.045" stroke-width="1"/>
+      <path d="M44 0H0V44" stroke="#FF8080" stroke-opacity="0.045" stroke-width="1"/>
     </pattern>
   </defs>
 
@@ -30,39 +30,39 @@
   <rect width="1280" height="340" rx="22" fill="url(#grid)"/>
   <rect width="1280" height="340" rx="22" fill="url(#glow)"/>
   <rect width="1280" height="340" rx="22" fill="url(#glow2)"/>
-  <rect x="0.75" y="0.75" width="1278.5" height="338.5" rx="21.5" stroke="#1F2A3D" stroke-width="1.5"/>
+  <rect x="0.75" y="0.75" width="1278.5" height="338.5" rx="21.5" stroke="#2A1416" stroke-width="1.5"/>
 
   <!-- lock -->
   <g transform="translate(72 112)">
     <path d="M18 62V44c0-13.3 10.7-24 24-24s24 10.7 24 24v18" stroke="url(#lock)" stroke-width="9" stroke-linecap="round"/>
-    <rect x="2" y="58" width="80" height="62" rx="14" fill="#0D1B2A" stroke="url(#lock)" stroke-width="4"/>
-    <circle cx="42" cy="84" r="7.5" fill="#9BE9FF"/>
-    <path d="M42 89v13" stroke="#9BE9FF" stroke-width="6" stroke-linecap="round"/>
+    <rect x="2" y="58" width="80" height="62" rx="14" fill="#120A0C" stroke="url(#lock)" stroke-width="4"/>
+    <circle cx="42" cy="84" r="7.5" fill="#FFC9C9"/>
+    <path d="M42 89v13" stroke="#FFC9C9" stroke-width="6" stroke-linecap="round"/>
   </g>
 
   <text x="206" y="172" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="82" font-weight="700" letter-spacing="-1.5" fill="url(#title)">ArcVault</text>
-  <text x="210" y="216" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="25" fill="#8BA3C7">Encrypted virtual filesystem for Windows</text>
+  <text x="210" y="216" font-family="Segoe UI, Inter, system-ui, sans-serif" font-size="25" fill="#A1A1AA">Encrypted virtual filesystem for Windows</text>
 
   <g font-family="Cascadia Code, Consolas, monospace" font-size="15">
-    <rect x="210" y="244" width="140" height="34" rx="17" fill="#10233A" stroke="#1E4C6B"/>
-    <text x="280" y="266" text-anchor="middle" fill="#7DD3FC">AES-256-XTS</text>
-    <rect x="362" y="244" width="92" height="34" rx="17" fill="#10233A" stroke="#1E4C6B"/>
-    <text x="408" y="266" text-anchor="middle" fill="#7DD3FC">WinFsp</text>
-    <rect x="466" y="244" width="84" height="34" rx="17" fill="#10233A" stroke="#1E4C6B"/>
-    <text x="508" y="266" text-anchor="middle" fill="#7DD3FC">C++17</text>
-    <rect x="562" y="244" width="112" height="34" rx="17" fill="#0E2A1B" stroke="#1E5B34"/>
-    <text x="618" y="266" text-anchor="middle" fill="#3FB950">read-only</text>
+    <rect x="210" y="244" width="140" height="34" rx="17" fill="#160C0E" stroke="#4A1A1E"/>
+    <text x="280" y="266" text-anchor="middle" fill="#FF8080">AES-256-XTS</text>
+    <rect x="362" y="244" width="92" height="34" rx="17" fill="#160C0E" stroke="#4A1A1E"/>
+    <text x="408" y="266" text-anchor="middle" fill="#FF8080">WinFsp</text>
+    <rect x="466" y="244" width="84" height="34" rx="17" fill="#160C0E" stroke="#4A1A1E"/>
+    <text x="508" y="266" text-anchor="middle" fill="#FF8080">C++17</text>
+    <rect x="562" y="244" width="112" height="34" rx="17" fill="#1A0C0E" stroke="#4A1A1E"/>
+    <text x="618" y="266" text-anchor="middle" fill="#FF4D4D">read-only</text>
   </g>
 
   <!-- file chip -->
   <g transform="translate(1012 92)">
-    <rect width="196" height="156" rx="16" fill="#0D1626" stroke="#22304A" stroke-width="1.5"/>
-    <path d="M56 26h44l28 28v22H56z" fill="#10233A" stroke="#2B4B6B" stroke-width="2"/>
-    <path d="M100 26v28h28" fill="none" stroke="#2B4B6B" stroke-width="2"/>
-    <text x="98" y="112" text-anchor="middle" font-family="Cascadia Code, Consolas, monospace" font-size="17" fill="#C9D6E8">vault.bin</text>
-    <text x="98" y="136" text-anchor="middle" font-family="Cascadia Code, Consolas, monospace" font-size="12" fill="#5B718F">AES-256-XTS</text>
-    <circle cx="170" cy="34" r="5" fill="#3FB950"/>
+    <rect width="196" height="156" rx="16" fill="#100A0C" stroke="#34171A" stroke-width="1.5"/>
+    <path d="M56 26h44l28 28v22H56z" fill="#160C0E" stroke="#4A1A1E" stroke-width="2"/>
+    <path d="M100 26v28h28" fill="none" stroke="#4A1A1E" stroke-width="2"/>
+    <text x="98" y="112" text-anchor="middle" font-family="Cascadia Code, Consolas, monospace" font-size="17" fill="#E4E4E7">vault.bin</text>
+    <text x="98" y="136" text-anchor="middle" font-family="Cascadia Code, Consolas, monospace" font-size="12" fill="#71717A">AES-256-XTS</text>
+    <circle cx="170" cy="34" r="5" fill="#FF4D4D"/>
   </g>
 
-  <text x="1180" y="292" text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#4E6484">github.com/lMezurul/ArcVault</text>
+  <text x="1180" y="292" text-anchor="end" font-family="Cascadia Code, Consolas, monospace" font-size="13" fill="#52525B">github.com/lMezurul/ArcVault</text>
 </svg>
