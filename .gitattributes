@@ -5,3 +5,5 @@
 *.h text eol=lf
 *.md text eol=lf
 *.svg text eol=lf
+third_party/** linguist-vendored
+third_party/** linguist-documentation
